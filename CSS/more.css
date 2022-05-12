@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+/* header*/
+/*  class="img-rounded" 添加图片圆角*/
+/*nav*/
+.top{
+	height:6px;
+	background-color:#c7cdc1;
+	}
+.navbar-bg{
+	background-color: rgb(255, 255, 255);
+}	
+/* 优质民宿 */
+header .nice{
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+}
+.nice h3{
+    display: inline;
+}
+	/*logo*/
+li{
+	letter-spacing:10px;
+}
+a{
+	color: #000;
+}	
+a:hover {
+    color:#dec3a5;
+	font-weight: bolder;
+    }	
+   
+/* container */
+.col-lg-3 img{
+	border-radius:2%;
+	margin-top: 3%;
+	position: relative;
+	left: 1%;
+}
+.col-lg-3 h6{
+	margin-top: 3%;
+	margin-left: 1%;
+}
+.col-lg-bg{
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	margin-top: 4%;
+}
+.col-lg-bg p{
+	display: inline;
+	font-size: 14px;
+	margin-left: 1em;
+	color: rgb(0, 0, 0);
+}
+img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+/*设置 a 标签的css样式*/
+.page-normal{
+    margin-top: 5%;
+}
+.page-normal a{
+    border: 1px solid #a4b885;
+    color: #a4b885;
+    margin-left: 10px;/*设置标签 a 之间的间隔*/
+    text-decoration: none;/*去除页码数字下面的下划线*/
+}
+/*设置鼠标经过时 a 标签的css样式*/
+.page-normal a:hover{
+    background-color: #c7cdc1;
+}
+
+/*设置整个div的css样式,该样式主要用于设置网页内的省略号 …… 的样式，并且同时设置内容居中显示*/
+.page-normal{
+    color: #a4b885;
+    text-align: center;
+}
+
+/*设置当前页面的css样式*/
+.page-normal .page-current{
+    color: #ffffff;
+    background-color: #a4b885;
+}
+
+/*设置左单括号 < 的css样式*/
+.page-normal .page-prev{
+    color: #8da27b;
+}
+
+/*进行代码优化，将不同css样式中共有的属性放在一起，有助于提高运行效率*/
+.page-normal a, .page-normal a:hover, .page-normal .page-prev, .page-normal .page-current{
+    border: 1px solid #a4b885;
+}
+
+
+/* footer */
+footer p{
+    display: inline;
+    margin-left: 2%;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}
+

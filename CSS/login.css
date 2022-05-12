@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+      width: 100%;
+      height: 100%;
+    }
+.box {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+.login {
+      width: 600px;
+      height: auto;
+      border: 1px solid #f1f1f1;
+      box-shadow: 2px 2px 8px #a4b885;
+    }
+
+header {
+      width: 100%;
+      height: 160px;
+      background-image:linear-gradient(to bottom right,#c7cdc1 0%,#99ac7e 10%, #9cad83 20%, #a4bb85 40%, #8da27b 60%,#648649 80%);
+      margin-bottom: 15px;
+    }
+
+.center {
+      width: 400px;
+      height: 200px;
+    }
+ .right:hover{
+      cursor: pointer;
+      color:#8da27b;
+   } 	
+.footer>* {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+.footer>*:hover {
+      color: #8da27b;
+    }
